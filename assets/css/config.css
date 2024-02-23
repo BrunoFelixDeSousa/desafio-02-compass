@@ -1,0 +1,15 @@
+:root {
+    --dark-background-color: #252B42;
+    --light-background-color: #FFFFFF;
+    --light-text-color: #FFFFFF;
+    --second-text-color: #737373;
+    --text-color: #252B42;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
