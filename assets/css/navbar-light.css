@@ -1,0 +1,90 @@
+.navbar-light {
+    width: 100%;
+    height: 3.625rem;
+    /* top: 70px; */
+    /* border: solid red;                      deletar linha */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    margin-top: 1rem;
+
+    font-weight: 700;
+    size: 0.875rem;
+    line-height: 1rem;
+}
+
+.navbar-light .brand {
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.navbar-light .collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25rem;
+}
+
+.navbar-light .collapse .links ul{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid green;                deletar linha */
+    list-style-type: none;
+}
+
+.navbar-light .collapse .links ul li {
+    padding: 0.5rem;
+}
+
+.navbar-light .collapse .links ul li a {
+
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: var(--second-text-color);
+    text-decoration: none;
+
+    /* border: 1px solid green;                deletar linha */
+}
+
+.navbar-light .collapse .login-search ul {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid green;                deletar linha */
+    list-style-type: none;
+}
+
+.navbar-light .collapse .login-search ul li {
+    padding: 0.875rem;
+}
+
+.navbar-light .collapse .login-search ul li a {
+    font-weight: 700;
+    size: 14px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color: var(--primary-color);
+    /* border: 1px solid green;                deletar linha */
+}
+
+.navbar-light .collapse .login-search ul li a span {
+    font-weight: 400;
+}
+
+.input-shop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--text-color);
+    font-weight: 500;
+    /* padding: 0px 14px;   */
+    gap: 8px;
+    width: 4rem;
+
+    border: none;
+}
