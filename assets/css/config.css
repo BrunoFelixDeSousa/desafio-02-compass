@@ -5,8 +5,9 @@
     --second-text-color: #737373;
     --text-color: #252B42;
     --primary-color: #23A6F0;
-
-
+    --success-color: #2DC071;
+    --success-color-hover: #3df392;
+    --light-text-gray: #FAFAFA;
 }
 
 * {
