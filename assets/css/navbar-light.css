@@ -16,9 +16,11 @@
     line-height: 1rem;
 }
 
-.navbar-light .brand {
+.navbar-light .brand a{
     font-weight: 700;
+    font-size: 24px;
     color: var(--text-color);
+    text-decoration: none;
 }
 
 .navbar-light .collapse {
@@ -46,8 +48,12 @@
     letter-spacing: 0.2px;
     color: var(--second-text-color);
     text-decoration: none;
-
+    transition: .5s;
     /* border: 1px solid green;                deletar linha */
+}
+
+.navbar-light .collapse .links ul li a:hover {
+    color: var(--text-color);
 }
 
 .navbar-light .collapse .login-search ul {
@@ -71,6 +77,10 @@
     color: var(--primary-color);
     /* border: 1px solid green;                deletar linha */
 }
+
+/* .navbar-light .collapse .login-search ul li a:hover {
+    color: var(--primary-color-hover);
+} */
 
 .navbar-light .collapse .login-search ul li a span {
     font-weight: 400;
