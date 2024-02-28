@@ -14,6 +14,8 @@
     font-weight: 700;
     size: 0.875rem;
     line-height: 1rem;
+    /* flex-wrap: inherit; */
+    /* border: 1px solid red; */
 }
 
 .navbar-light .brand a{
@@ -21,14 +23,22 @@
     font-size: 24px;
     color: var(--text-color);
     text-decoration: none;
+    padding-right: 25px;
 }
 
 .navbar-light .collapse {
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 25rem;
+    
+    /* border: 1px solid red; */
+    /* gap: 25rem; */
+}
+
+.navbar-light .collapse .links {
+    margin-right: auto;
 }
 
 .navbar-light .collapse .links ul{
