@@ -89,3 +89,8 @@
   letter-spacing: 1px;
   transition: 1s;
 }
+
+.carousel-2 .content .main-text2 button:hover {
+  background: var(--success-color-hover);
+  transition: 1s;
+}
