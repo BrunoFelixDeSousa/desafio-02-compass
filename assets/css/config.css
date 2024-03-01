@@ -32,6 +32,8 @@
   /* background-color: var(--light-background-color); */
 }
 
+/* sem responsividade no momento */
+/* 
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -56,4 +58,4 @@
   .container {
     max-width: 1320px;
   }
-}
+} */
